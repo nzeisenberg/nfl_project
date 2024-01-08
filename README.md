@@ -8,7 +8,7 @@ The spread is an artifical handicap created by sportsbooks to create an even bet
 Example: If a sportsbook projects a team to win by 3-4 points, they could be given a 3.5 point handicap. Therefore the two options to choose would be the favorite (-3.5) or the underdog (+3.5). In selecting the favorite (-3.5), you would need the favorite to win by over 4 points to win the selection. On the other hand, in choosing the underdog, you would need the underdog to either win outright or lose by less than 4 points to win the selection.
 
 # What Data Is Being Used
-The data consists of all NFL Games since 2002 (not including the 2023 season)
+The data consists of all NFL Games since 2002 (not including the 2023 season).
 
 Scores: Dataset uploaded to Kaggle by Spreadspoke, with a row for each game played in the NFL since 1966, including date, season year, home team, away team, weather and stadium information, the scores, and the spread once spreads began being tracked. Source: https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data?select=spreadspoke_scores.csv
 
