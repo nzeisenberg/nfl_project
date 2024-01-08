@@ -1,4 +1,4 @@
-# NFL_Project (Current Model Accuracy: 65.3%)
+# NFL_Project (Current Accuracy: 65.3%)
 
 My project predicts which NFL team will cover the spread in a game based on a variety of factors and statistics.
 
