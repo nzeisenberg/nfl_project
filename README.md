@@ -5,7 +5,7 @@ My project predicts which NFL team will cover the spread in a game based on a va
 # What is the spread of an NFL game?: 
 The spread is an artifical handicap created by sportsbooks to create an even bet between the two teams competing in a game. 
 
-Example: If a sportsbook projects a team to win by 3-4 points, they could be given a 3.5 point handicap. Therefore the two options to choose would be the favorite (-3.5) or the underdog (+3.5). In selecting the favorite (-3.5), you would need the favorite to win by over 4 points to win the selection. On the other hand, in choosing the underdog, you would need the underdog to either win outright or lose by less than 4 points to win the selection.
+Example: If a sportsbook projects a team to win by 3-4 points, they could be given a 3.5 point handicap. Therefore the two options to choose would be the favorite (-3.5) or the underdog (+3.5). In selecting the favorite (-3.5), you would need the favorite to win by over 4 points to win the selection. This would mean the favorite covers the spread. On the other hand, in choosing the underdog, you would need the underdog to either win outright or lose by less than 4 points to win the selection. This would mean the underdog covers the spread, and the favorite does not cover.
 
 # What Data Is Being Used
 The data consists of all NFL Games since 2002 (not including the 2023 season).
