@@ -20,7 +20,7 @@ Stats: Dataset uploaded to Kaggle by user CVIAXMIWNPTR, with a row for each game
 # The Model
 The model utilizes sci-kit learn features and is a logistic regression model. 
 Game facts being considered in the model:
-- Favorite being home or away (Discrete)
+- If the favorite is home or away (Discrete)
 - If the game is divisional (Discrete)
 - If the game is a playoff game (Discrete)
 
