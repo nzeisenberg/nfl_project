@@ -2,7 +2,7 @@
 
 My project predicts which NFL team will cover the spread in a game based on a variety of factors and statistics. 
 
-# What is the spread of an NFL game?: 
+# What is the spread of an NFL game? 
 The spread is an artifical handicap created by sportsbooks to create an even bet between the two teams competing in a game. 
 
 Example: If a sportsbook projects a team to win by 3-4 points, they could be given a 3.5 point handicap. Therefore the two options to choose would be the favorite (-3.5) or the underdog (+3.5). 
