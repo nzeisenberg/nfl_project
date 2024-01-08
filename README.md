@@ -40,6 +40,8 @@ COVER: The favorite exceeds their handicap, winning by more than expected
 NO COVER: The favorite does not exceed their handicap, either winning by less than expected or losing.
 
 # Flask Website
-The flask website is a local developmental server that takes in inputs and provides a prediction based o user inputs. For each team statsitic, a custom link is provided to statmuse.com, a reliable sports database that will relay each statstic to the user for conveninent input. It will yield one of two predictions: "COVER" or "NO COVER".
+The flask website is a local developmental server that takes in inputs and provides a prediction based on user inputs. 
+For each team statsitic, a custom link is provided to statmuse.com, a reliable sports database that will relay each statstic to the user for conveninent input. 
+It will yield one of two predictions: "COVER" or "NO COVER".
 
 
