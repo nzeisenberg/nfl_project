@@ -1,4 +1,4 @@
-# NFL Project (Current Accuracy: 65.3%)
+# NFL Project (Current Accuracy: 75%)
 
 My project predicts which NFL team will cover the spread in a game based on a variety of factors and statistics. 
 
@@ -21,27 +21,39 @@ https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data?select=
 - Stats: Dataset uploaded to Kaggle by user CVIAXMIWNPTR, with a row for each game played in the NFL since 2002, and a column for the home team, away team, and each team's statistical output in the game for a variety of statistics. https://www.kaggle.com/datasets/cviaxmiwnptr/nfl-team-stats-20022019-espn
 
 # The Model
-The model utilizes sci-kit learn features and is a logistic regression model. 
-Game facts being considered in the model:
+The model utilizes aggregated prediction probabilties from four classification models (Courtesy of scikit-learn):
+- Logistic Regression
+- Support Vector Classification
+- Random Forest Classification
+- Multi-Layer Perceptron Classification
+
+The model takes the mean of all prediction probabilities to create an aggregated prediction probabiltiy
+- The label prediction is either 0 or 1 (the probability rounded to either 0 or 1)
+- The model selects certain games based on a confidence threshold
+- The threshold ensures the model predicts over 20% of games with over 70% accuracy
+  
+# Features of Model
+Game facts being considered:
 - If the favorite is home or away (Discrete)
 - If the game is divisional (Discrete)
 - If the game is a playoff game (Discrete)
+- What week of the NFL season the game occured
 
-Team statistical per game averages being considered in the model (for both teams):
+Team statistical per game averages considered in the model (for both teams):
 - Passing yards
 - Passing yards allowed
 - Rushing yards
 - Rushing yards allowed
 - Turnovers
 - Against the spread record
+- Win % entering the game
 
+# Labels
 The model yields a prediction of either "COVER" or "NO COVER"
 COVER: The favorite exceeds their handicap, winning by more than expected
 NO COVER: The favorite does not exceed their handicap, either winning by less than expected or losing.
 
-# Flask Website
-The flask website is a local developmental server that takes in inputs and provides a prediction based on user inputs. 
-For each team statsitic, a custom link is provided to statmuse.com, a reliable sports database that will relay each statstic to the user for conveninent input. 
-It will yield one of two predictions: "COVER" or "NO COVER".
+
+
 
 
