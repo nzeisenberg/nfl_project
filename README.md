@@ -50,8 +50,13 @@ Team statistical per game averages considered in the model (for both teams):
 
 # Labels
 The model yields a prediction of either "COVER" or "NO COVER"
-COVER: The favorite exceeds their handicap, winning by more than expected
-NO COVER: The favorite does not exceed their handicap, either winning by less than expected or losing.
+
+COVER (1): The favorite exceeds their handicap, winning by more than expected
+
+NO COVER (0): The favorite does not exceed their handicap, either winning by less than expected or losing.
+
+
+
 
 
 
